@@ -6,10 +6,10 @@
 // TODO:
 // - Update the data strucure and the functions to manage those new properties
 const STUDENTS_DATA = [
-  { firstName: "An", lastName: "Lahlah", age: 20, batch: "Legend" },
-  { firstName: "Bình", lastName: "OhLuelue",  age: 22, batch: "Prime" },
-  { firstName: "Cẩm",lastName: "Kahkah", age: 21, batch: "Silver" },
-  { firstName: "An",lastName: "Jujudidu", age: 19, batch: "Bronze" }, // Duplicate first name !
+  { firstName: "An", lastName: "Borsith", age: 20, batch: "Legend" },
+  { firstName: "Bình", lastName: "Vanvat",  age: 22, batch: "Prime" },
+  { firstName: "Cẩm",lastName: "Brody", age: 21, batch: "Silver" },
+  { firstName: "An",lastName: "Wond", age: 19, batch: "Bronze" }, // Duplicate first name !
 ];
 
 /**
@@ -26,7 +26,7 @@ function updateStudentAge(firstName, lastName, newAge, batch) {
 }
 
 // 1 - Update An age to 30
-updateStudentAge("An", "Jujudidu", 30, "Bronze");
+updateStudentAge("An", "Wond", 30, "Bronze");
 
 // 2 - Print the updated data
 console.log(JSON.stringify(STUDENTS_DATA));
